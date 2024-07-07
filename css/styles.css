@@ -321,7 +321,9 @@ ul.about-list {
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-info .soc-link:hover, .soc-link:focus{
+.team-info .soc-link:hover, 
+.team-info .soc-link:focus, 
+.team-info .soc-link:active {
     background-color: var(--ocean);
 }
 .team-info .soc-link-icon {
